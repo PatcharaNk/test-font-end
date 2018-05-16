@@ -1,0 +1,34 @@
+.cup {
+  margin-left: 50px;
+  padding: 0;
+  background-color: black;
+  height: 120px;
+  width: 145px;
+  border-radius: 0 0 25px 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.handle {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 30px;
+  display: inline-block;
+  border-top: 20px solid;
+  border-right: 20px solid;
+  border-bottom: 20px solid;
+  border-radius: 0 100px 100px 0;
+  position: absolute;
+}
+
+.dish {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 25px;
+  width: 250px;
+  display: block;
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
